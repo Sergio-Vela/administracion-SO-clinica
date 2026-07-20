@@ -1,13 +1,29 @@
 {
-  "name": "citas-service",
+  "name": "login-service",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Microservicio de autenticación con Node.js, Express y MySQL",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"No tests configured\""
   },
-  "keywords": [],
+  "keywords": [
+    "login",
+    "node",
+    "express",
+    "mysql"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.21.2",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.3",
+    "mysql2": "^3.4.1"
+  }
 }
