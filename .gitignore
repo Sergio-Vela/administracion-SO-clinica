@@ -1,0 +1,21 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Angular
+.angular/
+dist/
+
+# Variables de entorno
+.env
+
+# Logs
+logs/
+*.log
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
